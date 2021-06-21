@@ -1,0 +1,132 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:aa
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[11pt, a4paper]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{cv/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete,
+% awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+ 
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Mahbubul}{Hasan}
+\address{The University of Memphis,Memphis, TN, 38152}
+\mobile{(+1) 901-634-5074} 
+%%% Social
+\email{imahbubulhasan@gmail.com}
+\homepage{https://www.mahbubulhasan.net/}
+%\github{posquit0}
+%\linkedin{posquit0}
+%%% Optionals
+\position{PhD Researcher {\enskip\cdotp\enskip}Applied Statistics}
+%\quote{``Make the change that you want to see in the world."}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Letter Data (Cover Letter)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\recipient
+  { The University of Memphis }
+  {College of Arts and Sciences \\
+  Memphis, TN, 38152, USA\\
+\\
+}
+\letterdate{\today}
+\lettertitle{Data Science Summer 2021 Intern in Biostatistics}
+\letteropening{Dear Sir/Madam}
+\letterclosing{Sincerely,}
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today }
+  {Mahbubul Hasan~~~·~~~Cover Letter}
+  {}
+
+\begin{document}
+%%% Make a header for CV using personal data
+\makecvheader
+%%% Make a title for Cover Letter using letter data
+\makelettertitle
+%%% Write content for your cover letter
+\begin{cvletter}
+\cvparagraph{About Me}
+
+I am a second-year PhD scholar at the University Of Memphis,TN. My primary research interests are applied statistics, artificial intelligence, big data, and machine learning in behavioral research, Bayesian estimation and applied Bayesian inference models. I am happy to find your vacancy via an email from my colleague at UM which perfectly matches my qualification and experience.
+
+\cvparagraph{Current career?}
+
+
+Firstly, my professional qualification has been considerably acquired by studying around the world. In particular, I obtained a Bachelor degree in Bangladesh and a Master with distinction in USA. Currently, I am pursuing a PhD in Dept of Applied Statistics at the University of Memphis. In addition, I have pursued an MS in Information Systems at the FCBE at the U of Memphis, where all courses were taught by world-renowned professors to train students to contribute in the big data and machine learning based research projects. I was also enrolled in a summer school in Data Science and Machine Learning program at Carnegie Mellon University.
+
+I have 8-years of relevant experience conducting research in quantitative research design and implementation.  For example, in the year of 2012 I have been a coordinator(research) at a world bank funded research project, a collaborative research project with the government of Bangladesh. Currently, since 2014, I am doing three PhD projects funded by National Science Foundation(NSF) and other university funded projects which focus on how pregnancy(yes/no)effect the DNAm of the pregnancy and birth using survival analysis/linear regression. In addition, I have fulfilled all data science duties for a proposed a two-step screening approach to screen high-dimensional epigenetic data (450k CpGs) from Isle of Wight birth cohort study (three-generational data, UK). I also have classified pregnant mothers into groups with similar socioeconomic status using k-means cluster analysis. This paper is in work-in progress stage to submit in a peer reviewed journal at the University of Memphis in USA. 
+
+
+  The second paper examines  how to design and develop interpretable neural networks that can objectively quantify performance evaluation in educational settings. This project is funded by NSF with collaboration with the learner data institute at the university of Memphis. For further references see \href{https://sites.google.com/view/learnerdatainstitute/overview?authuser=0}{The Learner Data Institute (LDI)}.  Currently, I am conducting the third project that will examine the use of big data and analytic in behavioral research in collaboration with University of Wisconsin–Green Bay. 
+
+
+Last but not least, I have relevant experience of both working independently, and with research faculty mentors in the national and international settings. Additionally, my long-term experience of using the statistical software packages ( R,R Shiny,SAS, Python) enables me to conduct empirical researches effectively.
+ I also have actively participated in various conferences around the world (Taiwan, Europe, and USA) as a presenter.
+
+
+
+
+\cvparagraph{Research and Academic goal}
+
+My research and academic goal is to become a high-ranked research scientist in the area of data science and machine learning and implementation of high-dimensional data to solve complex human problems. On the other hand, I really want to gain valuable experience of research at leading institutes and universities in the world. Working as an interns in Biostatistics at the The Division of Biostatistics in the Department of Preventive Medicine at the University of Tennessee Health Science Center in Memphis, Tennessee, will be definitely an excellent opportunity for me to turn my great goal into action. 
+
+With a strong background in quantitative research, statistics and computer programming, I would be confident to fulfill your requirements.
+
+I am looking forward to your positive reply.
+
+
+\end{cvletter}
+
+%%% Make a closing for Cover Letter using letter data
+\makeletterclosing
+
+\end{document}
